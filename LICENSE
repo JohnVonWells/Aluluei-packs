@@ -1,0 +1,32 @@
+DATA LICENSE & ATTRIBUTION
+==========================
+
+The data files distributed in this repository's GitHub Releases — vector tiles
+(*.pmtiles), the GraphHopper routing graph (gh_*.zip), and the POI, address, and
+speed-limit databases (*.db) — are DERIVED FROM OpenStreetMap.
+
+  © OpenStreetMap contributors.
+
+They are made available under the Open Database License (ODbL) v1.0:
+
+  - Open Database License (full text):  https://opendatacommons.org/licenses/odbl/1-0/
+  - OpenStreetMap copyright & attribution:  https://www.openstreetmap.org/copyright
+
+You are free to copy, distribute, use, and adapt these data, provided that you:
+
+  1. ATTRIBUTE OpenStreetMap and its contributors (as above), and
+  2. SHARE-ALIKE: if you publicly use an adapted/derived database, you make that
+     derived database available under the ODbL.
+
+Source / how the data was produced
+-----------------------------------
+These files are generated from a Geofabrik OpenStreetMap extract of the
+Netherlands using open-source tooling (Planetiler for tiles, GraphHopper for the
+routing graph, pyosmium for the databases). The generation scripts live in the
+application's own repository under tools/. The produced data files themselves are
+the assets attached to each GitHub Release here.
+
+Scope
+-----
+This license applies ONLY to the data files in the Releases. The application that
+downloads them is a separate work and is NOT licensed under the ODbL.
