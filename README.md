@@ -2,7 +2,7 @@
 
 Aluluei — data packs
   
-  Public region data packs for the **Aluluei** navigation app. Downloaded by the app you choose **Full offline** mode
+  Public region data packs for the the navigation app. Downloaded by the app you choose **Full offline** mode
 
   Each region is published as a **GitHub Release** (see the *Releases* tab), not as
   files in this repo. A release contains:
